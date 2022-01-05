@@ -1,3 +1,5 @@
+! This includes a fix for WHMCS 8.0. The issue with 8.0+ was with a missing package (guzzlehttp). Fixing the issue can be done by copying the latest guzzlehttp file from /vendor/guzzlehttp -> /modules/gateways/Coinbase/vendor/guzzlehttp
+
 ## Coinbase Commerce module for WHMCS, version 1.2
 **Note: This repository is not actively maintained.**
 
